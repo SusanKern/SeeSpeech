@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		053C771D21577CC5D83178BCC0FACAB7 /* SBPlatformDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DECD1EAB624E7F0725C63134288030 /* SBPlatformDestination.swift */; };
+		0D32A790B4A0C7958E7619B05C77C83A /* FileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DCC428FB50C9A36C83F6EEED03BDDC /* FileDestination.swift */; };
+		0D6C524B71AA8E08DA3F3E1F5E375871 /* ConsoleDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E08C76BDD2C239C1F42E5854C8E6A8 /* ConsoleDestination.swift */; };
+		138C07CB4D662BD4F21800DC6F00B647 /* Pods-SeeSpeech-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 080C4997B2A526D4DBC7502068BFBA59 /* Pods-SeeSpeech-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AECF37A73D4321F7D416A79FBDB2AB1 /* HexColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DAD499471779E24613BD2AEF137E292 /* HexColors-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A24E71C39EE06D163AB597DBB594D78 /* SwiftyBeaver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D73066F912751A8F7B7476F99389FED /* SwiftyBeaver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E702010AD5FD69B99BB756882680ED8 /* BaseDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F603D2D33975A88EB851B016716293 /* BaseDestination.swift */; };
+		42F4548A5F10C939F8CFD5BCBCB546E6 /* HexColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 560B773093BC4F7877ECEDF57A95685C /* HexColors-dummy.m */; };
+		4D874413E4B90E8F1557318F5E0DE3D3 /* AES256CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B3417DE604F99967D128140CBEF876 /* AES256CBC.swift */; };
+		61B323FE8E47CE7A4075EAEB9DB45956 /* HexColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85B58423AD2619926C75385D0BEB152 /* HexColors.swift */; };
+		708EBC3C63D9452C7ABAEA74EA995749 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E9E261A73A41BBCEEBA7E2F5C0FE73 /* Extensions.swift */; };
+		72C60364BBD7226BDC6DC818D4D9993E /* SwiftyBeaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0895A5987C0289241EF10529DAEC85 /* SwiftyBeaver.swift */; };
+		78FC0BA2977F8EFBCADEC7FA1D8E35DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A6FC3218B24A21F803C24C6750C5B5AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C4AB76F8B718330D23C4DF6790F9F2A9 /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985471A7710F0646E0B8F002751BFCBA /* Base64.swift */; };
+		CD1AF035FA4A4AD5721B47F15DD6F6C9 /* GoogleCloudDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196CBC55D88067B3629A57F9FCF62759 /* GoogleCloudDestination.swift */; };
+		E6AAFDA54D463215CC203B83B1C9864D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EAC8A3064E9D834547B10438C2213EA2 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346915E39517401CB6281610E6B6EA6F /* Filter.swift */; };
+		F10FE4D89DD52031FBB36261911FA311 /* SwiftyBeaver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C8957F51EEADC21516786E2EF5473E /* SwiftyBeaver-dummy.m */; };
+		FDCFDCA23B8C0206205863F07DF232DB /* Pods-SeeSpeech-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E14EDA8484E66854F1306DF0C7BABA /* Pods-SeeSpeech-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D3BD8437DB8F385667D74FF4C7D0C07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6D1B43D5397283E38BA2BE6258601F6;
+			remoteInfo = SwiftyBeaver;
+		};
+		AAE570B27BB72CF8209259F61FC973B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AB8FFBCE75B55A8638948CF9AC630B9;
+			remoteInfo = HexColors;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		056A7F63EDB2485E0766D0A9AC6E6D1A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080C4997B2A526D4DBC7502068BFBA59 /* Pods-SeeSpeech-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SeeSpeech-umbrella.h"; sourceTree = "<group>"; };
+		08EDC69B7D5FFE3FCA45C199999C85A5 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyBeaver.framework; path = SwiftyBeaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B3417DE604F99967D128140CBEF876 /* AES256CBC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES256CBC.swift; path = Sources/AES256CBC.swift; sourceTree = "<group>"; };
+		196CBC55D88067B3629A57F9FCF62759 /* GoogleCloudDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleCloudDestination.swift; path = Sources/GoogleCloudDestination.swift; sourceTree = "<group>"; };
+		19FE30A3DBCFC9EE871D210F1BA69B6E /* Pods-SeeSpeech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SeeSpeech.debug.xcconfig"; sourceTree = "<group>"; };
+		251865238D294560381665CAED8D52AB /* Pods-SeeSpeech-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SeeSpeech-frameworks.sh"; sourceTree = "<group>"; };
+		288DB5CAEF00FB920EB1D0BD1B6D454F /* Pods-SeeSpeech-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SeeSpeech-resources.sh"; sourceTree = "<group>"; };
+		33B56BC8008EA746544D5F6CCEF8E133 /* SwiftyBeaver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyBeaver.modulemap; sourceTree = "<group>"; };
+		346915E39517401CB6281610E6B6EA6F /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
+		3D3B1B3687F111F70737AF2DA14B67F0 /* Pods-SeeSpeech-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SeeSpeech-acknowledgements.plist"; sourceTree = "<group>"; };
+		44D37D0399D917B930BF3CE14BEF459D /* Pods_SeeSpeech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SeeSpeech.framework; path = "Pods-SeeSpeech.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45DCC368F54DE57CBF601D118A506124 /* SwiftyBeaver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyBeaver.xcconfig; sourceTree = "<group>"; };
+		51DCC428FB50C9A36C83F6EEED03BDDC /* FileDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileDestination.swift; path = Sources/FileDestination.swift; sourceTree = "<group>"; };
+		560B773093BC4F7877ECEDF57A95685C /* HexColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HexColors-dummy.m"; sourceTree = "<group>"; };
+		5D8E2002249B16CBFD1D45DDD9C85715 /* Pods-SeeSpeech.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SeeSpeech.modulemap"; sourceTree = "<group>"; };
+		654E44E3D0B789E9FC4E9AE35750B18A /* SwiftyBeaver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-prefix.pch"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		71E9E261A73A41BBCEEBA7E2F5C0FE73 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
+		7DAD499471779E24613BD2AEF137E292 /* HexColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HexColors-umbrella.h"; sourceTree = "<group>"; };
+		87C8957F51EEADC21516786E2EF5473E /* SwiftyBeaver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyBeaver-dummy.m"; sourceTree = "<group>"; };
+		8D73066F912751A8F7B7476F99389FED /* SwiftyBeaver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyBeaver-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96099B29CFF933F9D644595416936B3A /* Pods-SeeSpeech-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SeeSpeech-acknowledgements.markdown"; sourceTree = "<group>"; };
+		985471A7710F0646E0B8F002751BFCBA /* Base64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base64.swift; path = Sources/Base64.swift; sourceTree = "<group>"; };
+		9D3F8D61E64EBA7864BFCD4D90CBE00E /* HexColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HexColors.modulemap; sourceTree = "<group>"; };
+		A1368C48BDBC39B04C9831C0724B9956 /* HexColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HexColors-prefix.pch"; sourceTree = "<group>"; };
+		C1E14EDA8484E66854F1306DF0C7BABA /* Pods-SeeSpeech-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SeeSpeech-dummy.m"; sourceTree = "<group>"; };
+		CF0895A5987C0289241EF10529DAEC85 /* SwiftyBeaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyBeaver.swift; path = Sources/SwiftyBeaver.swift; sourceTree = "<group>"; };
+		D044065EFFED86899819467796CDBD0B /* Pods-SeeSpeech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SeeSpeech.release.xcconfig"; sourceTree = "<group>"; };
+		E2F603D2D33975A88EB851B016716293 /* BaseDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseDestination.swift; path = Sources/BaseDestination.swift; sourceTree = "<group>"; };
+		E6E4B24ED3DB4BA241CFB93C6C9A924D /* HexColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HexColors.xcconfig; sourceTree = "<group>"; };
+		E9B9650BD5823DD45D06C93FB020D654 /* HexColors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HexColors.framework; path = HexColors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E08C76BDD2C239C1F42E5854C8E6A8 /* ConsoleDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConsoleDestination.swift; path = Sources/ConsoleDestination.swift; sourceTree = "<group>"; };
+		F5DECD1EAB624E7F0725C63134288030 /* SBPlatformDestination.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SBPlatformDestination.swift; path = Sources/SBPlatformDestination.swift; sourceTree = "<group>"; };
+		F85B58423AD2619926C75385D0BEB152 /* HexColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColors.swift; path = Sources/HexColors.swift; sourceTree = "<group>"; };
+		FABC3BB2139BCC6CE67A75021991B1BF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD761A27E3A9F76E3AD2A592B9D608E6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0516F8972B36346B43D3547F839ED8DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78FC0BA2977F8EFBCADEC7FA1D8E35DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F98C2407733028A30FF79BBC3F3BC99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FC3218B24A21F803C24C6750C5B5AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E1C8719B57A2EF2E79ACF21D3A3D902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6AAFDA54D463215CC203B83B1C9864D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12629EE7C7ED769EFB64BB360B878A11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D65005C0BCF2DC0E867D94C96C2D0513 /* HexColors */,
+				1946176B294DF212B734D298A4833182 /* SwiftyBeaver */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1946176B294DF212B734D298A4833182 /* SwiftyBeaver */ = {
+			isa = PBXGroup;
+			children = (
+				16B3417DE604F99967D128140CBEF876 /* AES256CBC.swift */,
+				985471A7710F0646E0B8F002751BFCBA /* Base64.swift */,
+				E2F603D2D33975A88EB851B016716293 /* BaseDestination.swift */,
+				F2E08C76BDD2C239C1F42E5854C8E6A8 /* ConsoleDestination.swift */,
+				71E9E261A73A41BBCEEBA7E2F5C0FE73 /* Extensions.swift */,
+				51DCC428FB50C9A36C83F6EEED03BDDC /* FileDestination.swift */,
+				346915E39517401CB6281610E6B6EA6F /* Filter.swift */,
+				196CBC55D88067B3629A57F9FCF62759 /* GoogleCloudDestination.swift */,
+				F5DECD1EAB624E7F0725C63134288030 /* SBPlatformDestination.swift */,
+				CF0895A5987C0289241EF10529DAEC85 /* SwiftyBeaver.swift */,
+				971BDFB9B991908901A836FE0FBF4CD9 /* Support Files */,
+			);
+			name = SwiftyBeaver;
+			path = SwiftyBeaver;
+			sourceTree = "<group>";
+		};
+		5F41905E0DB3604B224F9DB65E4F76E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D3F8D61E64EBA7864BFCD4D90CBE00E /* HexColors.modulemap */,
+				E6E4B24ED3DB4BA241CFB93C6C9A924D /* HexColors.xcconfig */,
+				560B773093BC4F7877ECEDF57A95685C /* HexColors-dummy.m */,
+				A1368C48BDBC39B04C9831C0724B9956 /* HexColors-prefix.pch */,
+				7DAD499471779E24613BD2AEF137E292 /* HexColors-umbrella.h */,
+				FABC3BB2139BCC6CE67A75021991B1BF /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HexColors";
+			sourceTree = "<group>";
+		};
+		6A36615324F07F8ACBC84409AEF06E14 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEC3E2D208A42C1DB3915BF3FE15D171 /* Pods-SeeSpeech */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		72D4920D3EE3A5B968CB60E1375DCF3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9B9650BD5823DD45D06C93FB020D654 /* HexColors.framework */,
+				44D37D0399D917B930BF3CE14BEF459D /* Pods_SeeSpeech.framework */,
+				08EDC69B7D5FFE3FCA45C199999C85A5 /* SwiftyBeaver.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				12629EE7C7ED769EFB64BB360B878A11 /* Pods */,
+				72D4920D3EE3A5B968CB60E1375DCF3E /* Products */,
+				6A36615324F07F8ACBC84409AEF06E14 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		971BDFB9B991908901A836FE0FBF4CD9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				056A7F63EDB2485E0766D0A9AC6E6D1A /* Info.plist */,
+				33B56BC8008EA746544D5F6CCEF8E133 /* SwiftyBeaver.modulemap */,
+				45DCC368F54DE57CBF601D118A506124 /* SwiftyBeaver.xcconfig */,
+				87C8957F51EEADC21516786E2EF5473E /* SwiftyBeaver-dummy.m */,
+				654E44E3D0B789E9FC4E9AE35750B18A /* SwiftyBeaver-prefix.pch */,
+				8D73066F912751A8F7B7476F99389FED /* SwiftyBeaver-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyBeaver";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D65005C0BCF2DC0E867D94C96C2D0513 /* HexColors */ = {
+			isa = PBXGroup;
+			children = (
+				F85B58423AD2619926C75385D0BEB152 /* HexColors.swift */,
+				5F41905E0DB3604B224F9DB65E4F76E9 /* Support Files */,
+			);
+			name = HexColors;
+			path = HexColors;
+			sourceTree = "<group>";
+		};
+		FEC3E2D208A42C1DB3915BF3FE15D171 /* Pods-SeeSpeech */ = {
+			isa = PBXGroup;
+			children = (
+				FD761A27E3A9F76E3AD2A592B9D608E6 /* Info.plist */,
+				5D8E2002249B16CBFD1D45DDD9C85715 /* Pods-SeeSpeech.modulemap */,
+				96099B29CFF933F9D644595416936B3A /* Pods-SeeSpeech-acknowledgements.markdown */,
+				3D3B1B3687F111F70737AF2DA14B67F0 /* Pods-SeeSpeech-acknowledgements.plist */,
+				C1E14EDA8484E66854F1306DF0C7BABA /* Pods-SeeSpeech-dummy.m */,
+				251865238D294560381665CAED8D52AB /* Pods-SeeSpeech-frameworks.sh */,
+				288DB5CAEF00FB920EB1D0BD1B6D454F /* Pods-SeeSpeech-resources.sh */,
+				080C4997B2A526D4DBC7502068BFBA59 /* Pods-SeeSpeech-umbrella.h */,
+				19FE30A3DBCFC9EE871D210F1BA69B6E /* Pods-SeeSpeech.debug.xcconfig */,
+				D044065EFFED86899819467796CDBD0B /* Pods-SeeSpeech.release.xcconfig */,
+			);
+			name = "Pods-SeeSpeech";
+			path = "Target Support Files/Pods-SeeSpeech";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		100B99EC090F4D474173CAEB49BA37B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AECF37A73D4321F7D416A79FBDB2AB1 /* HexColors-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DB778DB6F24641F5A7AB1D96459E306 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138C07CB4D662BD4F21800DC6F00B647 /* Pods-SeeSpeech-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C3D0AB8B2180F580CDF21D0C0B28EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A24E71C39EE06D163AB597DBB594D78 /* SwiftyBeaver-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2AB8FFBCE75B55A8638948CF9AC630B9 /* HexColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41A2E99E09A8783C4F745776C123E046 /* Build configuration list for PBXNativeTarget "HexColors" */;
+			buildPhases = (
+				BAC7B355EC14C0D05B63C0F0318B4156 /* Sources */,
+				0F98C2407733028A30FF79BBC3F3BC99 /* Frameworks */,
+				100B99EC090F4D474173CAEB49BA37B7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HexColors;
+			productName = HexColors;
+			productReference = E9B9650BD5823DD45D06C93FB020D654 /* HexColors.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B6D1B43D5397283E38BA2BE6258601F6 /* SwiftyBeaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC94238CD1FD08E386EF81775029E049 /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */;
+			buildPhases = (
+				E9680EA65E9AC9C3F5E90EA873893FDA /* Sources */,
+				0516F8972B36346B43D3547F839ED8DF /* Frameworks */,
+				F5C3D0AB8B2180F580CDF21D0C0B28EB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyBeaver;
+			productName = SwiftyBeaver;
+			productReference = 08EDC69B7D5FFE3FCA45C199999C85A5 /* SwiftyBeaver.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE16D22CF2DB7FB2CDDB882FE48DF05D /* Pods-SeeSpeech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E55F80C2175A8A4809F6B6B083B79BB /* Build configuration list for PBXNativeTarget "Pods-SeeSpeech" */;
+			buildPhases = (
+				E631F5E25CEE76E0E52A81AF1584AF51 /* Sources */,
+				4E1C8719B57A2EF2E79ACF21D3A3D902 /* Frameworks */,
+				1DB778DB6F24641F5A7AB1D96459E306 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D812A7B6504BEF084BE34842D28579EE /* PBXTargetDependency */,
+				297537B89C614E0733B1E3E0CDADF08F /* PBXTargetDependency */,
+			);
+			name = "Pods-SeeSpeech";
+			productName = "Pods-SeeSpeech";
+			productReference = 44D37D0399D917B930BF3CE14BEF459D /* Pods_SeeSpeech.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 72D4920D3EE3A5B968CB60E1375DCF3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AB8FFBCE75B55A8638948CF9AC630B9 /* HexColors */,
+				BE16D22CF2DB7FB2CDDB882FE48DF05D /* Pods-SeeSpeech */,
+				B6D1B43D5397283E38BA2BE6258601F6 /* SwiftyBeaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAC7B355EC14C0D05B63C0F0318B4156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F4548A5F10C939F8CFD5BCBCB546E6 /* HexColors-dummy.m in Sources */,
+				61B323FE8E47CE7A4075EAEB9DB45956 /* HexColors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E631F5E25CEE76E0E52A81AF1584AF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCFDCA23B8C0206205863F07DF232DB /* Pods-SeeSpeech-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9680EA65E9AC9C3F5E90EA873893FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D874413E4B90E8F1557318F5E0DE3D3 /* AES256CBC.swift in Sources */,
+				C4AB76F8B718330D23C4DF6790F9F2A9 /* Base64.swift in Sources */,
+				3E702010AD5FD69B99BB756882680ED8 /* BaseDestination.swift in Sources */,
+				0D6C524B71AA8E08DA3F3E1F5E375871 /* ConsoleDestination.swift in Sources */,
+				708EBC3C63D9452C7ABAEA74EA995749 /* Extensions.swift in Sources */,
+				0D32A790B4A0C7958E7619B05C77C83A /* FileDestination.swift in Sources */,
+				EAC8A3064E9D834547B10438C2213EA2 /* Filter.swift in Sources */,
+				CD1AF035FA4A4AD5721B47F15DD6F6C9 /* GoogleCloudDestination.swift in Sources */,
+				053C771D21577CC5D83178BCC0FACAB7 /* SBPlatformDestination.swift in Sources */,
+				F10FE4D89DD52031FBB36261911FA311 /* SwiftyBeaver-dummy.m in Sources */,
+				72C60364BBD7226BDC6DC818D4D9993E /* SwiftyBeaver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		297537B89C614E0733B1E3E0CDADF08F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyBeaver;
+			target = B6D1B43D5397283E38BA2BE6258601F6 /* SwiftyBeaver */;
+			targetProxy = 2D3BD8437DB8F385667D74FF4C7D0C07 /* PBXContainerItemProxy */;
+		};
+		D812A7B6504BEF084BE34842D28579EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HexColors;
+			target = 2AB8FFBCE75B55A8638948CF9AC630B9 /* HexColors */;
+			targetProxy = AAE570B27BB72CF8209259F61FC973B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F0BEF7E37E38B1C32F5749720CFE5BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6E4B24ED3DB4BA241CFB93C6C9A924D /* HexColors.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HexColors/HexColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HexColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HexColors/HexColors.modulemap";
+				PRODUCT_MODULE_NAME = HexColors;
+				PRODUCT_NAME = HexColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6B67C59E06E46251CE28A24D5FF09DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D044065EFFED86899819467796CDBD0B /* Pods-SeeSpeech.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SeeSpeech/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SeeSpeech/Pods-SeeSpeech.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C47A03B623B42F76D305C018B77D0AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45DCC368F54DE57CBF601D118A506124 /* SwiftyBeaver.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyBeaver/SwiftyBeaver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyBeaver/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyBeaver/SwiftyBeaver.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyBeaver;
+				PRODUCT_NAME = SwiftyBeaver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		91DEF7B024A935A5EFE97ADBB989613A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19FE30A3DBCFC9EE871D210F1BA69B6E /* Pods-SeeSpeech.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SeeSpeech/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SeeSpeech/Pods-SeeSpeech.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F25BED21E396299A4363577BD39CE535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45DCC368F54DE57CBF601D118A506124 /* SwiftyBeaver.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyBeaver/SwiftyBeaver-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyBeaver/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyBeaver/SwiftyBeaver.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyBeaver;
+				PRODUCT_NAME = SwiftyBeaver;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD2640BCE17AEF91B3AA03EF62465FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6E4B24ED3DB4BA241CFB93C6C9A924D /* HexColors.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HexColors/HexColors-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HexColors/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HexColors/HexColors.modulemap";
+				PRODUCT_MODULE_NAME = HexColors;
+				PRODUCT_NAME = HexColors;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E55F80C2175A8A4809F6B6B083B79BB /* Build configuration list for PBXNativeTarget "Pods-SeeSpeech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91DEF7B024A935A5EFE97ADBB989613A /* Debug */,
+				6B67C59E06E46251CE28A24D5FF09DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41A2E99E09A8783C4F745776C123E046 /* Build configuration list for PBXNativeTarget "HexColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0BEF7E37E38B1C32F5749720CFE5BA /* Debug */,
+				FD2640BCE17AEF91B3AA03EF62465FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC94238CD1FD08E386EF81775029E049 /* Build configuration list for PBXNativeTarget "SwiftyBeaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25BED21E396299A4363577BD39CE535 /* Debug */,
+				6C47A03B623B42F76D305C018B77D0AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

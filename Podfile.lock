@@ -1,0 +1,20 @@
+PODS:
+  - HexColors (6.0.0)
+  - SwiftyBeaver (1.6.0)
+
+DEPENDENCIES:
+  - HexColors
+  - SwiftyBeaver
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - HexColors
+    - SwiftyBeaver
+
+SPEC CHECKSUMS:
+  HexColors: f8c66339541a74bb08905bfe7cd4f8cc85e9e173
+  SwiftyBeaver: e45759613e50b522b0e6f53b1f0f14389b45ca34
+
+PODFILE CHECKSUM: 51704d8aae7f96fb1d9a9e127fa7fee0462a317e
+
+COCOAPODS: 1.5.0
