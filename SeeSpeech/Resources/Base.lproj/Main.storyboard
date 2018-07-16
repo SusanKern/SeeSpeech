@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--See Speech View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SeeSpeechViewController" customModule="SeeSpeech" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RKr-ld-SUK" userLabel="Black View">
+                                <rect key="frame" x="4" y="24" width="367" height="575"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qaE-3A-EMu" userLabel="White View">
+                                        <rect key="frame" x="4" y="4" width="359" height="567"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tvg-El-MIK" userLabel="Gray View">
+                                                <rect key="frame" x="2" y="2" width="355" height="563"/>
+                                                <subviews>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSa-OD-dge">
+                                                        <rect key="frame" x="8" y="8" width="339" height="547"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="42"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" spellCheckingType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                                    </textView>
+                                                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="aSw-Cd-Cnw">
+                                                        <rect key="frame" x="168" y="272" width="20" height="20"/>
+                                                    </activityIndicatorView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="aSw-Cd-Cnw" firstAttribute="centerY" secondItem="Tvg-El-MIK" secondAttribute="centerY" id="BDW-ci-Yja"/>
+                                                    <constraint firstItem="aSw-Cd-Cnw" firstAttribute="centerX" secondItem="Tvg-El-MIK" secondAttribute="centerX" id="Rv3-h1-zCd"/>
+                                                    <constraint firstAttribute="bottom" secondItem="cSa-OD-dge" secondAttribute="bottom" constant="8" id="Zj3-FM-EcS"/>
+                                                    <constraint firstItem="cSa-OD-dge" firstAttribute="leading" secondItem="Tvg-El-MIK" secondAttribute="leading" constant="8" id="lzM-dW-al4"/>
+                                                    <constraint firstAttribute="trailing" secondItem="cSa-OD-dge" secondAttribute="trailing" constant="8" id="oi9-a1-xAf"/>
+                                                    <constraint firstItem="cSa-OD-dge" firstAttribute="top" secondItem="Tvg-El-MIK" secondAttribute="top" constant="8" id="swP-s0-Nm6"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="Tvg-El-MIK" firstAttribute="leading" secondItem="qaE-3A-EMu" secondAttribute="leading" constant="2" id="GBw-Ke-nt5"/>
+                                            <constraint firstItem="Tvg-El-MIK" firstAttribute="top" secondItem="qaE-3A-EMu" secondAttribute="top" constant="2" id="jEA-aC-lMG"/>
+                                            <constraint firstAttribute="trailing" secondItem="Tvg-El-MIK" secondAttribute="trailing" constant="2" id="mZ8-ix-hw9"/>
+                                            <constraint firstAttribute="bottom" secondItem="Tvg-El-MIK" secondAttribute="bottom" constant="2" id="ypA-u6-qXR"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="qaE-3A-EMu" firstAttribute="top" secondItem="RKr-ld-SUK" secondAttribute="top" constant="4" id="lTD-A2-h0X"/>
+                                    <constraint firstAttribute="trailing" secondItem="qaE-3A-EMu" secondAttribute="trailing" constant="4" id="lXR-SA-Y9a"/>
+                                    <constraint firstItem="qaE-3A-EMu" firstAttribute="leading" secondItem="RKr-ld-SUK" secondAttribute="leading" constant="4" id="n4q-cn-5iL"/>
+                                    <constraint firstAttribute="bottom" secondItem="qaE-3A-EMu" secondAttribute="bottom" constant="4" id="tej-D3-hNd"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vBt-4F-URT" customClass="SAKView" customModule="SeeSpeech" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="603" width="375" height="64"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="obr-Pj-ufK">
+                                        <rect key="frame" x="8" y="8" width="359" height="48"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ivV-Hj-bNL" customClass="SAKButton" customModule="SeeSpeech" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="175.5" height="48"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="28"/>
+                                                <state key="normal" title="Talk"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="tappedButtonTalk:" destination="BYZ-38-t0r" eventType="touchUpInside" id="97b-gH-Jdn"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HUV-yI-vXK" customClass="SAKButton" customModule="SeeSpeech" customModuleProvider="target">
+                                                <rect key="frame" x="183.5" y="0.0" width="175.5" height="48"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="28"/>
+                                                <state key="normal" title="Clear"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="tappedButtonClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2pk-Qu-POp"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="4IX-dY-G7j"/>
+                                    <constraint firstAttribute="bottom" secondItem="obr-Pj-ufK" secondAttribute="bottom" constant="8" id="6uV-1A-vEb"/>
+                                    <constraint firstItem="obr-Pj-ufK" firstAttribute="leading" secondItem="vBt-4F-URT" secondAttribute="leading" constant="8" id="8J7-EJ-27U"/>
+                                    <constraint firstAttribute="trailing" secondItem="obr-Pj-ufK" secondAttribute="trailing" constant="8" id="ZOS-AX-spY"/>
+                                    <constraint firstItem="obr-Pj-ufK" firstAttribute="top" secondItem="vBt-4F-URT" secondAttribute="top" constant="8" id="kj4-bE-pVa"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.092698628359999993" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="vBt-4F-URT" secondAttribute="trailing" id="4dR-uJ-Yfw"/>
+                            <constraint firstItem="vBt-4F-URT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Fmr-s8-UA7"/>
+                            <constraint firstItem="RKr-ld-SUK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="4" id="JIy-eJ-2c4"/>
+                            <constraint firstAttribute="trailing" secondItem="RKr-ld-SUK" secondAttribute="trailing" constant="4" id="W7y-1o-Ozp"/>
+                            <constraint firstItem="vBt-4F-URT" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="jmo-S3-A6a"/>
+                            <constraint firstItem="RKr-ld-SUK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="4" id="rxI-c4-03R"/>
+                            <constraint firstItem="vBt-4F-URT" firstAttribute="top" secondItem="RKr-ld-SUK" secondAttribute="bottom" constant="4" id="uRG-Ay-NzI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="aSw-Cd-Cnw" id="iX4-yg-XH9"/>
+                        <outlet property="buttonClear" destination="HUV-yI-vXK" id="uQ3-fc-zys"/>
+                        <outlet property="buttonTalk" destination="ivV-Hj-bNL" id="NOX-LQ-l7j"/>
+                        <outlet property="textView" destination="cSa-OD-dge" id="KZt-kF-cdM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="28.335832083958024"/>
+        </scene>
+    </scenes>
+</document>

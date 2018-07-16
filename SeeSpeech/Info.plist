@@ -24,6 +24,10 @@
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>SeeSpeech will record your speech to be presented.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>SeeSpeech will determine what you are saying.</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

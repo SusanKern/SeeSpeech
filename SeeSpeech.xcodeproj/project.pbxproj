@@ -7,12 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14BFF7196B74BCD5B722DCD7 /* Pods_SeeSpeech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42C8FA122CE589FBA990A17B /* Pods_SeeSpeech.framework */; };
 		1B80C61120F90C7C00C93888 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80C61020F90C7C00C93888 /* AppDelegate.swift */; };
-		1B80C61320F90C7C00C93888 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80C61220F90C7C00C93888 /* ViewController.swift */; };
+		1B80C61320F90C7C00C93888 /* SeeSpeechViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80C61220F90C7C00C93888 /* SeeSpeechViewController.swift */; };
 		1B80C61620F90C7C00C93888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B80C61420F90C7C00C93888 /* Main.storyboard */; };
 		1B80C61820F90C7E00C93888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B80C61720F90C7E00C93888 /* Assets.xcassets */; };
 		1B80C61B20F90C7E00C93888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B80C61920F90C7E00C93888 /* LaunchScreen.storyboard */; };
 		1B80C62620F90C7E00C93888 /* SeeSpeechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80C62520F90C7E00C93888 /* SeeSpeechTests.swift */; };
+		1B80C63A20F913F800C93888 /* SAKLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80C63720F913F700C93888 /* SAKLogging.swift */; };
+		1B80C63B20F913F800C93888 /* SAKLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80C63720F913F700C93888 /* SAKLogging.swift */; };
+		1B80C63C20F913F800C93888 /* SAKDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80C63820F913F700C93888 /* SAKDefaults.swift */; };
+		1B80C63D20F913F800C93888 /* SAKDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80C63820F913F700C93888 /* SAKDefaults.swift */; };
+		1B80C63E20F913F800C93888 /* SAKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80C63920F913F800C93888 /* SAKView.swift */; };
+		1B80C63F20F913F800C93888 /* SAKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80C63920F913F800C93888 /* SAKView.swift */; };
+		1B80C64120F9196C00C93888 /* UIColor+SAK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80C64020F9196C00C93888 /* UIColor+SAK.swift */; };
+		1B80C64220F9196C00C93888 /* UIColor+SAK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80C64020F9196C00C93888 /* UIColor+SAK.swift */; };
+		1B80C64420F91AA600C93888 /* SAKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80C64320F91AA600C93888 /* SAKButton.swift */; };
+		1B80C64520F91AA600C93888 /* SAKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80C64320F91AA600C93888 /* SAKButton.swift */; };
+		1B80C64720F9234100C93888 /* SpeechController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80C64620F9234100C93888 /* SpeechController.swift */; };
+		1B80C64820F9234100C93888 /* SpeechController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80C64620F9234100C93888 /* SpeechController.swift */; };
+		1B80C64A20F931CF00C93888 /* UITextView+SAK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80C64920F931CF00C93888 /* UITextView+SAK.swift */; };
+		1B80C64B20F931CF00C93888 /* UITextView+SAK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80C64920F931CF00C93888 /* UITextView+SAK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +43,7 @@
 /* Begin PBXFileReference section */
 		1B80C60D20F90C7C00C93888 /* SeeSpeech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeeSpeech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B80C61020F90C7C00C93888 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B80C61220F90C7C00C93888 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B80C61220F90C7C00C93888 /* SeeSpeechViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeSpeechViewController.swift; sourceTree = "<group>"; };
 		1B80C61520F90C7C00C93888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B80C61720F90C7E00C93888 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B80C61A20F90C7E00C93888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +51,16 @@
 		1B80C62120F90C7E00C93888 /* SeeSpeechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeeSpeechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B80C62520F90C7E00C93888 /* SeeSpeechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeSpeechTests.swift; sourceTree = "<group>"; };
 		1B80C62720F90C7E00C93888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B80C63720F913F700C93888 /* SAKLogging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAKLogging.swift; sourceTree = "<group>"; };
+		1B80C63820F913F700C93888 /* SAKDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAKDefaults.swift; sourceTree = "<group>"; };
+		1B80C63920F913F800C93888 /* SAKView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAKView.swift; sourceTree = "<group>"; };
+		1B80C64020F9196C00C93888 /* UIColor+SAK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+SAK.swift"; sourceTree = "<group>"; };
+		1B80C64320F91AA600C93888 /* SAKButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAKButton.swift; sourceTree = "<group>"; };
+		1B80C64620F9234100C93888 /* SpeechController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechController.swift; sourceTree = "<group>"; };
+		1B80C64920F931CF00C93888 /* UITextView+SAK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+SAK.swift"; sourceTree = "<group>"; };
+		42C8FA122CE589FBA990A17B /* Pods_SeeSpeech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeeSpeech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC9EDC87C6269BD6FE704CB /* Pods-SeeSpeech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeSpeech.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeeSpeech/Pods-SeeSpeech.debug.xcconfig"; sourceTree = "<group>"; };
+		9DA5C6773EAA13BF9E7A20C9 /* Pods-SeeSpeech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeeSpeech.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeeSpeech/Pods-SeeSpeech.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14BFF7196B74BCD5B722DCD7 /* Pods_SeeSpeech.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +82,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		000DE732B45CD92E4057F89E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FC9EDC87C6269BD6FE704CB /* Pods-SeeSpeech.debug.xcconfig */,
+				9DA5C6773EAA13BF9E7A20C9 /* Pods-SeeSpeech.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1B80C60420F90C7C00C93888 = {
 			isa = PBXGroup;
 			children = (
 				1B80C60F20F90C7C00C93888 /* SeeSpeech */,
 				1B80C62420F90C7E00C93888 /* SeeSpeechTests */,
 				1B80C60E20F90C7C00C93888 /* Products */,
+				000DE732B45CD92E4057F89E /* Pods */,
+				F3CD2227DF54373226026769 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,11 +114,11 @@
 		1B80C60F20F90C7C00C93888 /* SeeSpeech */ = {
 			isa = PBXGroup;
 			children = (
-				1B80C61020F90C7C00C93888 /* AppDelegate.swift */,
-				1B80C61220F90C7C00C93888 /* ViewController.swift */,
-				1B80C61420F90C7C00C93888 /* Main.storyboard */,
-				1B80C61720F90C7E00C93888 /* Assets.xcassets */,
-				1B80C61920F90C7E00C93888 /* LaunchScreen.storyboard */,
+				1B80C63020F90CBA00C93888 /* Application */,
+				1B80C63120F90CC700C93888 /* Controllers */,
+				1B80C63220F90CD100C93888 /* Resources */,
+				1B80C63420F90CE400C93888 /* Utility */,
+				1B80C63320F90CDD00C93888 /* ViewControllers */,
 				1B80C61C20F90C7E00C93888 /* Info.plist */,
 			);
 			path = SeeSpeech;
@@ -96,6 +133,77 @@
 			path = SeeSpeechTests;
 			sourceTree = "<group>";
 		};
+		1B80C63020F90CBA00C93888 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1B80C61020F90C7C00C93888 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1B80C63120F90CC700C93888 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B80C64620F9234100C93888 /* SpeechController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1B80C63220F90CD100C93888 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B80C61720F90C7E00C93888 /* Assets.xcassets */,
+				1B80C61920F90C7E00C93888 /* LaunchScreen.storyboard */,
+				1B80C61420F90C7C00C93888 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1B80C63320F90CDD00C93888 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B80C61220F90C7C00C93888 /* SeeSpeechViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1B80C63420F90CE400C93888 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1B80C63520F90D8E00C93888 /* Classes */,
+				1B80C63620F90D9800C93888 /* Extensions */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		1B80C63520F90D8E00C93888 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1B80C64320F91AA600C93888 /* SAKButton.swift */,
+				1B80C63820F913F700C93888 /* SAKDefaults.swift */,
+				1B80C63720F913F700C93888 /* SAKLogging.swift */,
+				1B80C63920F913F800C93888 /* SAKView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1B80C63620F90D9800C93888 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1B80C64020F9196C00C93888 /* UIColor+SAK.swift */,
+				1B80C64920F931CF00C93888 /* UITextView+SAK.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F3CD2227DF54373226026769 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42C8FA122CE589FBA990A17B /* Pods_SeeSpeech.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B80C62A20F90C7E00C93888 /* Build configuration list for PBXNativeTarget "SeeSpeech" */;
 			buildPhases = (
+				BC4946A4100971B516F67FE8 /* [CP] Check Pods Manifest.lock */,
 				1B80C60920F90C7C00C93888 /* Sources */,
 				1B80C60A20F90C7C00C93888 /* Frameworks */,
 				1B80C60B20F90C7C00C93888 /* Resources */,
+				544048ABD41EF3D5DE9FCDD3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,13 +302,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		544048ABD41EF3D5DE9FCDD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SeeSpeech/Pods-SeeSpeech-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HexColors/HexColors.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HexColors.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeeSpeech/Pods-SeeSpeech-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC4946A4100971B516F67FE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeeSpeech-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1B80C60920F90C7C00C93888 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B80C61320F90C7C00C93888 /* ViewController.swift in Sources */,
+				1B80C61320F90C7C00C93888 /* SeeSpeechViewController.swift in Sources */,
+				1B80C64420F91AA600C93888 /* SAKButton.swift in Sources */,
 				1B80C61120F90C7C00C93888 /* AppDelegate.swift in Sources */,
+				1B80C63E20F913F800C93888 /* SAKView.swift in Sources */,
+				1B80C64A20F931CF00C93888 /* UITextView+SAK.swift in Sources */,
+				1B80C64120F9196C00C93888 /* UIColor+SAK.swift in Sources */,
+				1B80C64720F9234100C93888 /* SpeechController.swift in Sources */,
+				1B80C63A20F913F800C93888 /* SAKLogging.swift in Sources */,
+				1B80C63C20F913F800C93888 /* SAKDefaults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +364,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B80C63D20F913F800C93888 /* SAKDefaults.swift in Sources */,
+				1B80C64520F91AA600C93888 /* SAKButton.swift in Sources */,
 				1B80C62620F90C7E00C93888 /* SeeSpeechTests.swift in Sources */,
+				1B80C64220F9196C00C93888 /* UIColor+SAK.swift in Sources */,
+				1B80C63F20F913F800C93888 /* SAKView.swift in Sources */,
+				1B80C63B20F913F800C93888 /* SAKLogging.swift in Sources */,
+				1B80C64820F9234100C93888 /* SpeechController.swift in Sources */,
+				1B80C64B20F931CF00C93888 /* UITextView+SAK.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +521,7 @@
 		};
 		1B80C62B20F90C7E00C93888 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC9EDC87C6269BD6FE704CB /* Pods-SeeSpeech.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -365,7 +531,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = skern.SeeSpeech;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skern.seespeech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -374,6 +540,7 @@
 		};
 		1B80C62C20F90C7E00C93888 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DA5C6773EAA13BF9E7A20C9 /* Pods-SeeSpeech.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -383,7 +550,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = skern.SeeSpeech;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skern.seespeech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
